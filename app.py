@@ -45,7 +45,7 @@ class Schelling:
 
                     if is_unhappy:
                         empty_houses = list(zip(np.where(self.city == 0)[0], np.where(self.city == 0)[1]))
-                        random_house = list(np.random.choice(empty_houses)) #changed from random choice XXXX
+                        random_house = random.choice(empty_houses)
                         self.city[random_house] = attribute
                         self.city[row,col] = 0
 
