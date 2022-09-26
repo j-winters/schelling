@@ -8,6 +8,7 @@ python_version  : 3.10.0
 
 import numpy as np
 import streamlit as st
+import random
 
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
