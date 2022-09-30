@@ -13,9 +13,6 @@ import random
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
-#Get rid of random and use np.random.choice instead.
-#Test on Mac to make sure that it works.
-
 class Schelling:
     def __init__(self, size, empty_ratio, similarity_threshold, n_neighbors):
         self.size = size 
